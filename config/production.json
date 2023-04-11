@@ -1,0 +1,4 @@
+{
+    "db": "mongodb+srv://admin:admin@mycluster001.wywusnn.mongodb.net/reunion-assignment?retryWrites=true&w=majority",
+    "jwtSecret": "this is a secret key"
+}

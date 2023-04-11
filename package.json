@@ -1,0 +1,28 @@
+{
+    "name": "back-end-assignment-reunion",
+    "version": "1.0.0",
+    "description": "back-end assignment for reunion",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "cross-env NODE_ENV=development nodemon src/app.js",
+        "test": "cross-env NODE_ENV=test mocha --exit --recursive --timeout 10000"
+    },
+    "author": "Sudipta Pradhan",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "config": "^3.3.9",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "mongoose-autopopulate": "^1.0.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "chai-http": "^4.3.0",
+        "cross-env": "^7.0.3",
+        "mocha": "^10.2.0",
+        "nodemon": "^2.0.22"
+    }
+}
