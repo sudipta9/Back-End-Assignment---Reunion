@@ -229,12 +229,12 @@ required fields:
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: api/dislike/{id}
+## End-point: api/unlike/{id}
 
 ### Method: POST
 >
 >```
->127.0.0.1:3000/api/dislike/643426f259de48716e27b545
+>127.0.0.1:3000/api/unlike/643426f259de48716e27b545
 >```
 >
 ### Headers
